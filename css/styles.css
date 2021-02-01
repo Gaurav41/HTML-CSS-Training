@@ -299,3 +299,58 @@ font-size: 52px;
 	font-size: 18px; 	   
 }
 
+.footer{
+	margin-top:25px; 
+	background-color: #3693D6;
+	width: 100%;
+	
+}
+
+.footer_row{
+	display: table;
+	background-color: red;
+	margin: auto; 
+	text-align: center;
+	background-color: #3693D6;
+	
+}
+.footer_col{
+	 float: left; 
+	 width: 200px;
+	 margin: 15px;
+}
+.footer_col h2{
+	line-height: 70px;
+	font-size: 32px;
+	margin: 0px;
+
+
+}
+
+.footer_col p{
+	margin: 10px;
+	font-size: 22px;
+}
+
+.socials{
+	margin: 10px;
+	margin-top: 0px;
+	margin-block: 60px;
+
+}
+
+#footer_logo{
+	margin-right: 50px;
+    margin-block: 60px;
+}
+
+#f_logo{
+	/*width: 300px;*/
+	margin-right: 60px;
+}
+
+#f_socials{
+	/*width: 300px;*/
+	margin-left: 70px;
+
+}
