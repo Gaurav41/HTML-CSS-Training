@@ -3,6 +3,7 @@
  - text color '#29313E' and '#FFFFFF'
 */
 
+/* to remove default margin of page*/
 body{
 	/*overflow: hidden;*/
 	margin: 0px;
@@ -21,8 +22,7 @@ body::-webkit-scrollbar{
 	height:100%;
 }
 
-.banner{
-	
+.banner{	
 	background-image: url('../images/hero_image.png');
 	height: 657px;
 	margin-bottom: 0px;
@@ -76,6 +76,7 @@ nav li a:active{
 
 	color: red;
 }
+/*About me section*/
 #about{
 	padding-bottom:100px;
 	background-color: #3693D6;
@@ -110,6 +111,7 @@ nav li a:active{
 
 }
 
+/*Our work section*/
 #ourWork{
 	font-size: 22px;
 	background-color:#3693D6;
@@ -154,6 +156,7 @@ nav li a:active{
 
 }
 
+/*Testimonial section*/
 .Testimonials{
 	margin-top:100px; 
 	background-color: white;
@@ -193,17 +196,7 @@ font-size: 52px;
 	
 }
 
-
-
-/*
-.cards{
-	background-color: #3693D6;
-	
-
-	
-}
-*/
-
+/*Cards Section*/
 .cards{
 	margin-top: 100px; 
 	padding: 50px;
@@ -214,7 +207,6 @@ font-size: 52px;
 }
 /* Float four columns side by side */
 .col {
-
   float: left;  
   /*padding: 0 10px;*/
   margin: 0px 22px 0px 22px;
@@ -236,10 +228,10 @@ font-size: 52px;
 }
 
 .card {
-	font-family: "Lato",sans-serif;
-	color: '#29313E';
+  font-family: "Lato",sans-serif;
+  color: '#29313E';
   width: 240px;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5);
   padding: 16px;
   text-align: center;
   background-color: #f1f1f1;
@@ -295,7 +287,7 @@ font-size: 52px;
 	color:#FFFFFF;
 	border-radius:20px;
 	padding: 10px;
-   
+   outline:none;
     border: none;
 	width: 50%;
 	font-size: 18px; 	   
@@ -353,17 +345,5 @@ font-size: 52px;
 
    /*text aline non center*/
     margin-top: 40px;
-    margin-left: 50px;
-    
-}
-
-#f_logo{
-	/*width: 300px;*/
-	/*margin-right: 60px;*/
-}
-
-#f_socials{
-	/*width: 300px;*/
-	/*margin-left: 70px;*/
-
+    margin-left: 50px;   
 }
