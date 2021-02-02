@@ -16,7 +16,10 @@ body::-webkit-scrollbar{
 .verticle-spacing{
 	margin-top: 100px;
 }
+.horizontal-spacing{
+	margin-left: 50px;
 
+}
 .main-container{
 	/*margin-top: 0px;
 	margin-left: 5%;
@@ -38,7 +41,7 @@ body::-webkit-scrollbar{
 
 #logo {
 	padding-top: 20px;
-	padding-left: 50px;
+	
 	float: left;
 }
 
@@ -187,10 +190,6 @@ nav li a:active{
 
 .husk-img {
  	width: 508px;
-
-}
-
-.colspan{
 
 }
 
@@ -348,7 +347,7 @@ nav li a:active{
 
 #footer_logo{
    margin-top: 40px;
-   margin-left: 50px;   
+  
 }
 
 #f_logo{
