@@ -118,7 +118,7 @@ nav li a:active{
 .ourwork-button{
 	font-size: 22px;
 	background-color:#3693D6;
-	outline: none;
+	
 	border-radius: 20px;
 	padding: 5px 25px 5px 25px;
 	float: right;
@@ -126,9 +126,14 @@ nav li a:active{
 	right: 100px;
 	color:#FFFFFF;
 	position:absolute;
+	outline: none;
+	outline-style: none;
+	box-shadow: none;
 }
 
-.ourwork-section{
+
+
+/*.ourwork-section{
 	font-size: 52px;
 	color: #3693D6;
 	text-align: center;
@@ -148,6 +153,45 @@ nav li a:active{
 	width: 100%;
 	height: 100%;
 	display: block;
+}
+*/
+
+.ourwork-section{
+	font-size: 52px;
+	color: #3693D6;
+	text-align: center;
+}
+.image-gallery{
+	display:  table;
+	margin:0 auto;
+}
+
+.gallery-row{
+	 display:table-row;
+
+}
+
+.gallery-cell{
+	display:table-column;
+	float: left; 
+	height: 250px;
+	width: 250px;
+	margin: 4px;
+	padding: 
+}
+
+.gallery-cell img{
+ height: 100%;
+ width: 100%;
+}
+
+.husk-img {
+ 	width: 508px;
+
+}
+
+.colspan{
+
 }
 
 /*Testimonial section*/
@@ -292,6 +336,7 @@ nav li a:active{
 
 .footer-col p{
 	margin-top: 10px;
+	margin-right: 15px;
 	margin-bottom: 0px;
 	font-size: 22px; /*text font size '22px'*/
 }
