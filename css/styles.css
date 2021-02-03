@@ -141,8 +141,7 @@ nav li a:active{
 	color:#FFFFFF;
 	position:absolute;
 	outline: none;
-	outline-style: none;
-	box-shadow: none;
+	border-style: none;
 }
 
 .ourwork-section{
