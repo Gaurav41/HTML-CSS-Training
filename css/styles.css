@@ -64,7 +64,7 @@ nav {
 
 ul{
  	list-style-type: none;
- 	margin-top:2vh; 
+ 	margin-top:14px; 
 	text-align: right;
 	vertical-align:top;
 	padding-right: 80px; 		
@@ -108,7 +108,7 @@ nav li a:active{
 	margin: 0px;
 	padding: 0px;
 	/*font-size: 52px;*/
-	font-size: 52px;/*3.80vw*/
+	font-size: 52px;
 	/*line-height: 100px;*//*100*/
 	padding-top: 100px;
 	text-align: center;
@@ -118,7 +118,7 @@ nav li a:active{
 .about-section p{
 	font-size: 42px;
 	margin-top:48px;
-	margin-bottom:  0 ;/*3.5vw;*//*48px;*/  
+	margin-bottom: 0; 
 	padding: 0px;
 	border: none;
 	text-align: center;
