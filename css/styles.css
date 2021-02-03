@@ -39,6 +39,9 @@ h2{
 	height:100%;
 }
 
+header{
+	position: relative;
+}
 .banner{	
 	background-image: url('../images/hero_image.png');
 	height: 657px;
@@ -132,7 +135,8 @@ nav li a:active{
 	border-radius: 20px;
 	padding: 5px 25px 5px 25px;
 	float: right;
-	bottom: 80px;
+	/*bottom: 80px;*/
+	top:550px;
 	right: 100px;
 	color:#FFFFFF;
 	position:absolute;
