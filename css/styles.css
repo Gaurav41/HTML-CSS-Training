@@ -7,21 +7,25 @@
 body{
 	/*overflow: hidden;*/
 	margin: 0px;
+	
+}
+*{
 	font-family: "Montserrat",sans-serif;
+	font-weight: normal;
 }
 body::-webkit-scrollbar{
 	display: none;
 }
-
+h2{
+	font-weight: 600;
+}
 .verticle-spacing{
-	/*margin-top: 100px;*/
-	margin-top: 15.2207vh;
+	margin-top: 100px;
 	
 }
 .horizontal-spacing{
-	/*margin-left: 50px;
-	*/
-	margin-left: 4vw;
+	margin-left: 50px;
+	
 
 }
 .main-container{
@@ -37,8 +41,7 @@ body::-webkit-scrollbar{
 
 .banner{	
 	background-image: url('../images/hero_image.png');
-	/*height: 657px;*/
-	height: 100vh;
+	height: 657px;
 	width: 100%;
 	margin-bottom: 0px;
 	background-position:center;  
@@ -46,7 +49,7 @@ body::-webkit-scrollbar{
 
 #logo {
 
-	padding-top: 3vh;/*20px*/
+	padding-top: 20px;
 	float: left;
 }
 
@@ -55,7 +58,7 @@ nav {
 	margin: 0px;
 	padding:0px;
 	font-size: 22px;
-	height: 20vh;/*136px*/
+	height: 136px;
 	width:100%;/*90*/
 	}
 
@@ -64,12 +67,11 @@ ul{
  	margin-top:2vh; 
 	text-align: right;
 	vertical-align:top;
-	/*padding-right: 80px; */
-	padding-right: 6vw; 		
+	padding-right: 80px; 		
 }
 
 nav li{
-	margin-top: 1.5vh;/*10px;*/ 
+	margin-top: 10px; 
 	display: inline-block;
 
 }
@@ -77,8 +79,8 @@ nav li{
 nav li a{
 	color: white;
 	text-decoration: none;
-    line-height: 10.65vh;/* 70px*/
- 	padding:   0.76vh 2.19vw 0.76vh 2.19vw;/*5px 30px 5px 30px*/
+    line-height: 70px;
+ 	padding: 5px 30px 5px 30px;
 }
 
 nav li a:hover /*,a.active*/{
@@ -95,7 +97,7 @@ nav li a:active{
 
 /*About me section*/
 .about-section{
-	padding-bottom:15.2207vh;/*100px*/
+	padding-bottom: 100px;
 	background-color: #3693D6;
 	color: white;
 	width: 100%;
@@ -106,16 +108,16 @@ nav li a:active{
 	margin: 0px;
 	padding: 0px;
 	/*font-size: 52px;*/
-	font-size: 3.80vw;/*52px*/
+	font-size: 52px;/*3.80vw*/
 	/*line-height: 100px;*//*100*/
-	padding-top: 15.2207vh;/*100px*/
+	padding-top: 100px;
 	text-align: center;
+	font-weight: 600;
 }
 
 .about-section p{
-	font-size: 3.0746vw;/*42px;*/ 
-	/*margin-top:48px;*/
-	margin-top: 7.3vh;/*48px;*/
+	font-size: 42px;
+	margin-top:48px;
 	margin-bottom:  0 ;/*3.5vw;*//*48px;*/  
 	padding: 0px;
 	border: none;
@@ -125,13 +127,13 @@ nav li a:active{
 
 /*Our work section*/
 .ourwork-button{
-	font-size: 1.6105vw;/*22px;*/
+	font-size: 22px;
 	background-color:#3693D6;
 	border-radius: 20px;
-	padding: 0.76vh 1.83vw 0.76vh 1.83vw; /*5px 25px 5px 25px*/;
+	padding: 5px 25px 5px 25px;
 	float: right;
-	bottom: 12.17vh;/*80px;*/
-	right: 7.3vw;/*100px;*/
+	bottom: 80px;
+	right: 100px;
 	color:#FFFFFF;
 	position:absolute;
 	outline: none;
@@ -165,7 +167,7 @@ nav li a:active{
 */
 
 .ourwork-section{
-	font-size: 3.8067vw;/*52px;*/
+	font-size: 52px;
 	color: #3693D6;
 	text-align: center;
 }
@@ -188,10 +190,10 @@ nav li a:active{
 .gallery-cell{
 	display:table-column;
 	float: left; 
-	height:  38vh;/*250px;*/
-	width: 18.30vw;/*250px;*/
-	margin: 0.60vh 0.29vw 0.60vh 0.29vw;/*4px;*/
-	padding: 
+	height: 250px;
+	width: 250px;
+	margin: 4px;
+	
 }
 
 .gallery-cell img{
@@ -200,48 +202,49 @@ nav li a:active{
 }
 
 .husk-img {
- 	width:  37.18vw;/*508px;*/
+ 	width:  508px;
 
 }
 
 /*Testimonial section*/
 .Testimonials{	
 	display: block;
-	width: 40.2635vw;/*550px*/
+	width: 550px;
 	text-align: center;
 	color: #3693D6;
-	margin:0 auto;	
+	margin: 0 auto;	
 }
 
 .Testimonial_title{
 	margin-top: 0px;	
-	font-size: 3.8067vw;/*52px;*/
+	font-size: 52px;
 }
 
 .user_pic >img{
-	margin-top:0px; 
+	margin-top: 0px; 
 	border-radius: 50%;
 }
 
 .user_name {
 	line-height: 20px;
-	font-size: 3.0746vw;/*42px;*/
+	font-size: 42px;
+	font-weight: normal;
 }
 
 .user_msg>p {
-	font-size: 2.3426vw;/*32px;*/	
+	font-size: 32px;
 }
 
 /*Cards Section*/
 .cards-section{
-	padding: 7.6vh 3.6vw 7.6vh 3.6vw ;/*50px;*/
+	padding: 50px;
 	background-color: #3693D6;
 }
 
 /* Float four columns side by side */
 .col {
   float: left;  
-  margin:  0 1.61vw 0 1.61vw;/*0px 22px 0px 22px;*/
+  margin: 0px 22px 0px 22px;
 }
 
 /* Clear floats after the columns */
@@ -252,22 +255,24 @@ nav li a:active{
 }
 
 .card {
-  font-family: "Lato",sans-serif;
-  color: '#29313E';
-  width: 17.569vw;/*240px;*/
+ 
+  color: #29313E;
+  width: 240px;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5);
-  padding: 2.435vh 1.17130vw 2.435vh 1.17130vw; /*16px;*/
+  padding: 16px;
   text-align: center;
   background-color: #f1f1f1;
  /* margin-left: 10px;*/
 }
 
 .card h2{
-	font-size: 2.1961vw;/*30px;*/
+	 font-family: "Lato",sans-serif;
+	font-size: 30px;
 }
 
 .card p{
-	font-size: 1.7569vw; /*24px;*/
+	 font-family: "Lato",sans-serif;
+	font-size: 24px;
 }
 
 .card a{
@@ -276,13 +281,12 @@ nav li a:active{
 	display: block;
 }
 
-.msg-form-section table{
-	
+.msg-form-section table{	
 	border-spacing: 20px;
 }
 
 .msg-form-section th{
-	font-size: 2.9282vw;/*40px;*/
+	font-size: 40px;
 	padding: 0px;
 	margin: 0px;
 	text-align: left;
@@ -290,32 +294,32 @@ nav li a:active{
 }
 
 .msg-form-section input{
-	font-size: 1.3177vw;/*18px;*/
-	height: 9.132vh;/*60px;*/
-	width: 29.28vw;/*400px;*/
+	font-size: 18px;
+	height: 60px;
+	width: 400px;
 	padding-left: 20px;	
 }
 
 .msg-form-section textarea{
-	font-size: 1.3177vw;/*18px;*/
+	font-size: 18px;
 	height: 100%;
 	width: 100%;
 	display: block;
 	margin:0px;
-	padding-left: 1.464vw/*20px*/;
-	padding-top: 3.0441vh /*20px*/;
+	padding-left: 20px;
+	padding-top: 20px;
 }
 
 #send-msg-btn{
-	margin-top:  3.8051vh;/*25px;*/
+	margin-top: 25px;
 	background-color:#3693D6;
 	color:#FFFFFF;
 	border-radius:20px;
-	padding:  1.5220vh 0.7320vw 1.5220vh 0.7320vw;/*10px;*/
+	padding: 10px;
     outline:none;
     border: none;
 	width: 50%;
-	font-size:  1.3177vw;/*18px;*/
+	font-size: 18px;
 }
 
 .footer-section{
@@ -324,8 +328,8 @@ nav li a:active{
 }
 
 .footer-row{
-	padding-top: 10.65449vh;/* 70px; */
-	padding-bottom: 5.12445vw;/*70px;*/ 
+	padding-top: 70px;
+	padding-bottom: 70px; 
 	display: table;
 	/*margin: auto; */
 	/*text-align: center;*/	
@@ -333,35 +337,33 @@ nav li a:active{
 .footer-col{
 	float: left; 
 	margin: 0 auto;
-    width:  19.0336vw;/*260px*/;
+    width:  260px;
 
 }
 .footer-col h2{
-	/*line-height: 70px;*/ /*ooter vertical spacing '70px'*/
-	font-size:  2.3426vw;/*32px;*/  /*itle font size '32px'*/
+	font-size:  32px;  /*itle font size '32px'*/
 	margin: 0px;
 }
 
 .footer-col p{
-	margin-top:  1.5220vh;/*10px;*/
-	margin-right: 1.0980vw;/*15px;*/
+	margin-top:  10px;
+	margin-right: 15px;
 	margin-bottom: 0px;
-	font-size: 1.6105vw;/*22px; *//*text font size '22px'*/
+	font-size: 22px;/*text font size '22px'*/
 }
 
 .socials{
-	margin: 6.0882vh 0.7320vw 1.52vh 0.7320vw/* 10px; margin-top: 40px;*/
+	margin: 50px 10px 0px 10px; /*margin-top: 40px;*/
 }
 
 #footer-logo{
 
-   margin-top: 6.0882vh; /*40px*/
+   margin-top: 40px;
 }
 
 
 #f-logo{
-	
-	padding-left:  3.660vw/*50px*/;
+	padding-left: 50px;
 	float: left;
-	margin-top:  6.0882vh/*40px*/;
+	margin-top: 40px;
 }
