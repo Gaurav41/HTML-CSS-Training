@@ -1,5 +1,16 @@
+/*
 
+light-300
+medium-500
+semi-bold 600
+bold 700
+black 900
+*/
+body{
+	margin: 0px;
+}
 .main-container{
+
 	width: 1170px;
 	font-family: "Poppins",sans-serif;
 	color: #222222; /*Primary color*/;
@@ -23,38 +34,116 @@ header{
 }
 
 .navbar nav {
+		
+	position: fixed; 
+	vertical-align: middle;
 	display: block;
-	position: fixed;
-	font-size: 22px;
+	font-size: 26px;
 	width: 100%;
 	}
 
 .navbar ul{
+	padding-top: 32px;
+	padding-bottom: 32px;   
 	float: right;
 	text-align: center;
+	margin: 0px;
 }
 
 .navbar li{	
 	display: inline-block;
 }
 
-nav li a{
-	padding-left: 30px;
+.navbar a{
+	padding-left: 40px;
 	text-decoration: none;
 	font-size: 16px;
+	font-weight: 300;
 	color: #C7C7C7; /*Secondary color*/
 }
 
-nav li a:hover {
+.navbar a:hover {
 	color: #222222;
 	text-decoration: underline;
 
 }
 
-nav li a:active{
+.navbar a:active{
 	color: red;
 }
 
 .logo {
 	float: left;
+	padding: 16px 0 16px 0;
+	padding-top: 16px;
+	padding-bottom: 16px;
+}
+
+.banner{
+
+	color: #222222;
+	background-color: #EFEFEF;
+	height: 420px;
+	width: 100%;
+    position: relative;	
+}
+
+.banner h2{
+	font-size: 50px;
+	font-weight: 900; /*black*/
+    margin: 10px 0 20px 0;
+}
+
+.banner p{
+	margin: 0px; 
+	font-size: 16px;
+	font-weight: 300;/*lignt*/
+	
+}
+
+.banner-text{
+	position: absolute;
+    float: left;  
+    width: 590px;
+    height: auto;
+    padding: 75px 0 75px 0;   
+}
+
+.banner img{
+	position: relative;
+	float: right;
+	width: 480px;
+    height: 480px;
+}
+
+.banner-button{
+	margin-top: 30px; 
+	position: relative;
+	display: block;
+}
+.shop-now-button{
+	position: relative;
+	bottom: 0px;
+	height: 26px;	
+}
+
+
+.shop-now-button a{
+	position: absolute;
+	top: 0px;
+	font-size: 18px;
+	font-weight: 300;
+	background: none;
+	border: none;
+	text-decoration: none;	
+	color: #222222;
+}
+
+.red-background{
+	position: absolute;
+	bottom: 0px;
+	height: 10px;
+	width: 95px;
+	background-color: #FF2600;
+	opacity: 0.5;	
 }
