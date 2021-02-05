@@ -12,16 +12,17 @@ body{
 .main-container{
 
 	width: 1170px;
+	
+	margin: 0 auto;
+}
+*{
 	font-family: "Poppins",sans-serif;
 	color: #222222; /*Primary color*/;
-	margin: 0 auto;
 }
 
 .horizontal-spacing{
-	
 	margin-left: 150px;
     margin-right: 150px;
-
 }
 
 .vertical-spacing{
@@ -30,12 +31,9 @@ body{
 
 header{
 	height: 90px;
-	
-
 }
 
 .navbar nav {
-	position: fixed; 
 	vertical-align: middle;
 	display: block;
 	font-size: 26px;
@@ -80,8 +78,6 @@ header{
 }
 
 .banner{
-
-	color: #222222;
 	background-color: #EFEFEF;
 	height: 420px;
 	width: 100%;
@@ -135,8 +131,7 @@ header{
 	font-weight: 300;
 	background: none;
 	border: none;
-	text-decoration: none;	
-	color: #222222;
+	text-decoration: none;
 }
 
 .red-background{
@@ -216,6 +211,7 @@ header{
 .product-details p{
 	font-size: 14px;
 	font-weight: 300; 
+	color: #C7C7C7;
 
 }
 
@@ -223,6 +219,7 @@ header{
 {	margin-top:0; 
 	font-size: 24px;
 	font-weight: 300; 
+	color: #C7C7C7;
 }
 
 .card:hover .product-details {
@@ -311,9 +308,10 @@ header{
 	margin: 0;
 	width: 247px;
 	/*height: auto;*/
-	border: 2px solid #C7C7C7;
+	border: 1px solid #C7C7C7;
 
 }
+
 
 .tile-cards .tile-img{
 	width: 100%;
@@ -337,10 +335,17 @@ header{
 	font-weight: 500;
 	margin: 0;
 }
-
+.sale-label{
+	position: absolute;
+	background-color: #222222;
+	color: #C7C7C7;
+	top:20px;
+	right:20px;
+	font-size: 14px;
+	padding: 5px 10px ;
+}
 .card-container button
 {
-	
 	/*float: right;*/
 	right: 0;
 	border: none;
@@ -374,16 +379,18 @@ header{
 }
 
 .gallery-img{
+	border-left: 2px solid #222222;
 	height: 100%;
 	width: 100%;
 }
-.gallery-img h2{
+.gallery-cards h2{
 	 font-size: 18px;
 	 font-weight: 500;
+
 }
 
-.gallery-img p{
-	 font-size: 16px;
+.gallery-cards p{
+	 font-size: 14px;
 	 font-weight: 300px;
 }
 
@@ -469,16 +476,11 @@ header{
 
 	display: inline-block;
 	text-decoration: none;
-	list-style: none;
-
-	
+	list-style: none;	
 }
 
 .f-bottom ul li a{
-	text-decoration: none;
-	color: inherit;
-	
-	
+	text-decoration: none;	
 }
 
 .f-bottom ul li:not(:last-child)
@@ -486,82 +488,81 @@ header{
 	margin-right: 30px;	
 }
 
-.cards-section{
+.newsletter{
+margin-top: 300px;
+position: relative;
+width: 100%;
+height: auto;
 
 }
 
-
-.newsletter-section{
-
+.bg{
 	position: relative;
+	height: 300px;
 	width: 100%;
-	height: 400px;
-	/*height: 480px;/***/
-/*	border: 1px solid black;
-*/
+	background-color: #EFEFEF; 
 }
-.xy{
-	position: relative;
-}
-.newsletter-content img{
-		
-	height: 480px;
-	position: absolute;
-	bottom: 0;
-	left: 15px;
 
-}
-.newsletter-bg{
-	width: 100%;
-	box-sizing: border-box;
-	background-color: #EFEFEF;
-	position: absolute;
-	bottom:0px;
-}
 .newsletter-content{
-	box-sizing: border-box;
-	padding-top: 80px;
-    padding-bottom: 80px;
-	padding-left:350px;
-	
-/*	background-image: url(../images/emailer_banner_img.png); 
-*/}
-.newsletter-content h2{
-	font-size: 24px;
-	font-weight: 800;
-	margin: 0 129px 0 129px;
+	text-align: center;
+	display: block;
+	float: right;
+	margin: auto;
+	/*border: 2px solid red;*/ 
+	position: absolute;
+    top: 39px;
+    right: 100px;
+
+
 }
 
-.newsletter-content span{
-	font-weight: 300;
+.n-img img{
+	position: absolute;
+	display: block;
+	float: left;
+	bottom: 0;
+	margin-left: 150px;
+	height: 485px;
+	width: 303px;
+
 }
 
-.newsletter-content pre{
-	font-family: "Poppins",sans-serif;
-	font-size: 14px;
-	font-weight: 300;
-}
 .newsletter-content input{
-	height: 32px;
-    width: 290px;
-    color: #C7C7C7;
-    padding-left: 30px;
-    border: none;
-    margin: 0;
-
+	height: 50px;
+	padding-left: 30px;
+	margin: 0;
+	width: 350px;
+	color: #C7C7C7;
+	border: none;
+	font-size:14px;
 }
 .newsletter-content button{
-
-	height:32px;
-	font-size: 14px;
-	font-weight: 300;
+	height: 50px;
+	width: 160px;
 	padding: 0;
 	margin: 0;
-	height: 32px;
-    width: 150px;
-    background-color: #222222;
-    border: none;
-    color: #FFFFFF;
-    border: none;
+	background-color: #222222;
+	border: none; 
+	color: #C7C7C7;
+	font-size:14px;
+	font-weight: 300;
+
+	
+}
+.newsletter-content h2{
+	font-size: 24px;
+	font-weight: 600;
+	
+}
+.newsletter-content  span{
+	font-weight: 300;
 
 }
+.newsletter-content p{
+	font-size: 14px;
+	font-weight: 300;
+	margin-bottom: 40px;
+	
+}
+
+
