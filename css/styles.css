@@ -33,13 +33,6 @@ header{
 	height: 90px;
 }
 
-.navbar nav {
-	vertical-align: middle;
-	display: block;
-	font-size: 26px;
-	width: 100%;
-	}
-
 .navbar ul{
 	padding-top: 32px;
 	padding-bottom: 32px;   
@@ -80,8 +73,8 @@ header{
 .banner{
 	background-color: #EFEFEF;
 	height: 420px;
-	width: 100%;
-    position: relative;	
+	position: relative;
+	
 }
 
 .banner h2{
@@ -97,11 +90,9 @@ header{
 	
 }
 
-.banner-text{
-	position: absolute;
-    float: left;  
+.banner-content{
+	position: absolute; 
     width: 590px;
-    height: auto;
     padding: 75px 0 75px 0;   
 }
 
@@ -115,7 +106,7 @@ header{
 .banner-button{
 	margin-top: 30px; 
 	position: relative;
-	display: block;
+	
 }
 .shop-now-button{
 	position: relative;
@@ -150,7 +141,6 @@ header{
 
 .types-links ul{
 	padding: 0;
-	list-style: none;
 	
 }
 
@@ -223,7 +213,6 @@ header{
 }
 
 .card:hover .product-details {
-	/*background-color:#33000000;*/
 	color: #EFEFEF;
 	opacity: 0.8;	
 }
@@ -257,8 +246,6 @@ header{
 	font-weight: 300;
 }
 
-
-
 .banner-cards .card{
 	width: 402px;
 	height: auto;
@@ -269,21 +256,17 @@ header{
 }
 
 .banner-cards .card-container{
-
 	position: absolute;
 	top: 70px;
-
 }
 
 .banner-cards .container-1{
 	right: 10px;
-	
 }
 
 .banner-cards .container-2{
 	left:10px;
 }
-
 
 .banner-cards .card-container h2{
 	margin-top: 0;
@@ -309,18 +292,13 @@ header{
 	width: 247px;
 	/*height: auto;*/
 	border: 1px solid #C7C7C7;
-
 }
-
 
 .tile-cards .tile-img{
 	width: 100%;
-   /* height: 347px;*/
-
 }
 
 .tile-cards .card-container{
-	/*position: relative;*/
 	padding: 10px;
 }
 .tile-cards h2{
@@ -344,7 +322,7 @@ header{
 	font-size: 14px;
 	padding: 5px 10px ;
 }
-.card-container button
+.card-container .add-button
 {
 	/*float: right;*/
 	right: 0;
@@ -355,12 +333,13 @@ header{
 	font-weight: 300; 
 	padding: 0;
 	margin-left:40px; 
-	
 }
 
+.card-container .add-button:hover {
+	background-color: #C7C7C7;
+}
  .tile-cards p{
-	display: inline-block;
-	
+	display: inline-block;	
 	margin: 0;
 	padding: 0;
 	margin-right: 30px;
@@ -369,13 +348,10 @@ header{
 }
 
 .gallery-cards .card{
-	box-sizing: border-box;
-	position: relative;
 	display: inline-block;
 	margin: 0;
 	width: 247px;
     height: 160px;
-   
 }
 
 .gallery-img{
@@ -386,7 +362,6 @@ header{
 .gallery-cards h2{
 	 font-size: 18px;
 	 font-weight: 500;
-
 }
 
 .gallery-cards p{
@@ -397,12 +372,14 @@ header{
 .gallery-cards a{
 	text-decoration: none;
 	color: #222222;
+	
 }
 
-
+.gallery-cards a:hover{
+	background-color: #C7C7C7;
+}
 .f-col {
 	display: inline-block;
-
 }
 
 .f-col ul{
@@ -412,14 +389,11 @@ header{
 	padding-left: 0px; 
 }
 
-
-
 .f-row a{
 	text-decoration: none;
 	color: #222222;
 	font-size: 16px;
 	font-weight:300;
-
 }
 
 .f-col:not(:last-child)
@@ -442,32 +416,26 @@ header{
 	margin-top: 60px; 
 	width: 100%;
 	height: 122px;
-	background-color: #EFEFEF;
-	
+	background-color: #EFEFEF;	
+	position: relative;
 }
 
 .f-bottom-content{
-	box-sizing: border-box;
-	height: 100%;
+	
 	padding-top: 61px;
 	padding-bottom: 61px;
-	vertical-align: center;
-	position: relative;
 	text-align: center;
  	font-size: 16px;
- 	font-weight: 300;
- 	
+ 	font-weight: 300;	
 }
+
 .f-bottom p{
-	position: absolute;
-	display: block;
+	position: absolute;	
 	margin: 0;
 	padding: 0;
 }
 
 .f-bottom ul{
-	height: 100%
-	width:100%;
 	float: right;
 	margin: 0px;
 	padding: 0px;
@@ -481,6 +449,10 @@ header{
 
 .f-bottom ul li a{
 	text-decoration: none;	
+}
+
+.f-bottom ul li a:hover{
+	text-decoration: underline;
 }
 
 .f-bottom ul li:not(:last-child)
@@ -505,20 +477,14 @@ height: auto;
 
 .newsletter-content{
 	text-align: center;
-	display: block;
-	float: right;
-	margin: auto;
 	/*border: 2px solid red;*/ 
 	position: absolute;
     top: 39px;
     right: 100px;
-
-
 }
 
 .n-img img{
 	position: absolute;
-	display: block;
 	float: left;
 	bottom: 0;
 	margin-left: 150px;
