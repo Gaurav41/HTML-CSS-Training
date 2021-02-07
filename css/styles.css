@@ -10,9 +10,7 @@ body{
 	margin: 0px;
 }
 .main-container{
-
-	width: 1170px;
-	
+	width: 1170px;	
 	margin: 0 auto;
 }
 *{
@@ -31,11 +29,17 @@ body{
 
 header{
 	height: 90px;
+	
 }
-
+.navbar{
+	position:fixed;
+	z-index: 1;
+	width: 870px;
+}
 .navbar ul{
 	padding-top: 32px;
-	padding-bottom: 32px;   
+	padding-bottom: 32px; 
+	right: 0;  
 	float: right;
 	text-align: center;
 	margin: 0px;
@@ -50,7 +54,7 @@ header{
 	text-decoration: none;
 	font-size: 16px;
 	font-weight: 300;
-	color: #C7C7C7; /*Secondary color*/
+	color: #C7C7C7; 
 }
 
 .navbar a:hover, .types-links a:hover  {
@@ -64,11 +68,13 @@ header{
 }
 
 .logo {
+	
 	float: left;
 	padding: 16px 0 16px 0;
 	padding-top: 16px;
 	padding-bottom: 16px;
 }
+
 
 .banner{
 	background-color: #EFEFEF;
