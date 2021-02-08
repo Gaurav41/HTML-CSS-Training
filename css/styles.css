@@ -8,7 +8,13 @@ black 900
 */
 body{
 	margin: 0px;
+
 }
+
+body::-webkit-scrollbar{
+	display: none;
+}
+
 .main-container{
 	width: 1170px;	
 	margin: 0 auto;
